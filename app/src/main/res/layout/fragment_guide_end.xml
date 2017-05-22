@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.qtgk.guide.fragment.GuideFourFragment">
+
+    <ImageView
+        android:id="@+id/imageview_end"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tv_express"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_4_tv_express"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="60dp"
+        android:textColor="#FFFFFF"
+        android:textScaleX="1.0"
+        android:textSize="20sp"
+        android:text="立即体验" />
+
+</FrameLayout>
